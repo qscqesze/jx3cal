@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="body-view">
+    <text class="title">霸刀伤害计算器</text>
+  </view>
+</view>
+
+<view class="page-section">
+  <view class="weui-cells__title">力道</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <input class="weui-input" type="digit" placeholder="1135"/>
+    </view>
+  </view>
+
+  <view class="weui-cells__title">会心率</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <input class="weui-input" type="digit" placeholder="35.46"/>
+    </view>
+  </view>
+</view>
+
+<button bindtap="add">开始计算</button>
+<text>{{text}}</text>
